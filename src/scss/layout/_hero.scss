@@ -1,0 +1,55 @@
+.hero {
+  padding: 16rem;
+  height: 50vh;
+  min-height: 500rem; /* Que el contenedor ocupe como mínimo lo que ocupan sus elementos */
+  display: block;
+  color: $white;
+  background-color: $azulSpotify;
+
+  &__title {
+    max-width: 400rem;
+    padding-top: 14%;
+
+    font-size: 35rem;
+    font-weight: $boldBlack;
+    letter-spacing: 1rem;
+    line-height: 50rem;
+  }
+
+  &__subtitle {
+    max-width: 400rem;
+    padding-top: 15rem;
+
+    font-size: 16rem;
+    font-weight: $bold;
+    letter-spacing: 1.5rem;
+    line-height: 28rem;
+  }
+
+  &__buttom {
+    width: 100%;
+    height: 40rem;
+    margin: 20rem 0 30rem 0;
+    text-align: center;
+    font-size: 12rem;
+    font-weight: $bold;
+    letter-spacing: 1.5rem;
+    text-transform: uppercase;
+    line-height: 40rem;
+    color: $white;
+    border-radius: 20rem;
+    border: none;
+    background-color: $verdeSpotify;
+  }
+
+  &__buttom:hover {
+    background-color: $verdeSpotifyHover;
+    cursor: pointer;
+  }
+
+  &__conditions {
+    font-size: 10rem;
+    font-weight: $regular;
+    line-height: 16rem;
+  }
+}

@@ -1,4 +1,7 @@
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px;
+:root {
+  /* 1REM = 1PX */
+  font-size: 6.25%;
+
+  /* TIPOGRAFÍA DE LA PÁGINA */
+  font-family: $roboto;
 }

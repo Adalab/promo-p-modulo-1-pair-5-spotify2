@@ -1,5 +1,41 @@
-.page__header {
+.header {
+  height: 80rem;
+  padding: 0 16rem;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  color: $white;
+  background-color: $black;
+
+  &__logo {
+    width: 100rem;
+  }
+
+  &__hamburguer {
+    width: 40rem;
+    height: 40rem;
+    text-align: center;
+    font-size: 30rem;
+    line-height: 40rem;
+  }
+
+  &__menu:hover {
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: none;
+
+    &__link {
+      padding: 0 10rem;
+    }
+
+    &__link:last-child {
+      padding-right: 0;
+    }
+
+    &__link:hover {
+      cursor: pointer;
+    }
+  }
 }
